@@ -1,4 +1,4 @@
-<img src="https://ugahacks.com/img/timeline-photos/hacks8banner.png">
+<img src="https://ugahacks.com/img/timeline-photos/hacks8banner.png" width=100>
 
 # ATHcrowdmeter
 
