@@ -1,18 +1,19 @@
-/* this program is to test a feature*/
 /* https://brand.uga.edu/visual-style/ */
 html, head {
   font: 20px Oswald, sans-serif;
 }
 html, body {
-  height: 100%;
-  width: 100%;
+  height: 95%;
+  width: 95%;
   font: 15px Merriweather, sans-serif;
+  text-align: center;
   background-color: #BA0C2F;
+  justify-content: centered;
 }
 .flex-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
 }
 div.Description {
   background-color: #9EA2A2;
@@ -22,10 +23,6 @@ div.Description {
   height: 750px;
   text-align: center;
 }
-div.Spacer {
-  width: 50;
-  font: #BA0C2F;
-}
 div.Table {
   background-color: #d8d9d6;
   padding: 2.5%;
@@ -33,10 +30,17 @@ div.Table {
   width: 750px;
   text-align: center;
 }
+div.spacer {
+  width: 5%;
+}
 th {
   font: 25px Merriweather, sans-serif;
   padding: 5%;
 }
 tr:hover {
   background-color: #9EA2A2;
+}
+.UGAlogo{
+  padding: 10px 10px 10px 10px;
+  border-radius: 50%;
 }
